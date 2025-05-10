@@ -1,0 +1,26 @@
+{
+  "name": "pintegram_bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that helps save shared links from group chats to Airtable",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "airtable",
+    "link-collector"
+  ],
+  "author": "Yaman Can",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+} 
